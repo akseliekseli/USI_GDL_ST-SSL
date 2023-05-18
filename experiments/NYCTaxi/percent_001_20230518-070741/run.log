@@ -1,0 +1,108 @@
+2023-05-18 07:07:41: Experiment log path in: /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741
+2023-05-18 07:07:41: Experiment configs are: Namespace(seed=31, device='cuda', mode='train', best_path='None', debug=False, data_dir='data', dataset='NYCTaxi', input_length=35, batch_size=32, test_batch_size=32, graph_file='data/NYCTaxi/adj_mx.npz', d_input=2, d_output=2, d_model=64, dropout=0.1, percent=0.01, shm_temp=0.5, nmb_prototype=4, yita=0.5, epochs=100, lr_init=0.001, early_stop=True, early_stop_patience=15, grad_norm=True, max_grad_norm=5, use_dwa=True, temp=2, num_nodes=200, log_dir='/home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741')
+2023-05-18 07:08:01: *******Train Epoch 1: averaged Loss : 47.980815
+2023-05-18 07:08:02: *******Val Epoch 1: averaged Loss : 30.239918
+2023-05-18 07:08:02: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:08:21: *******Train Epoch 2: averaged Loss : 28.711903
+2023-05-18 07:08:21: *******Val Epoch 2: averaged Loss : 21.383209
+2023-05-18 07:08:21: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:08:41: *******Train Epoch 3: averaged Loss : 20.638106
+2023-05-18 07:08:41: *******Val Epoch 3: averaged Loss : 17.566500
+2023-05-18 07:08:41: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:09:01: *******Train Epoch 4: averaged Loss : 19.774941
+2023-05-18 07:09:02: *******Val Epoch 4: averaged Loss : 16.485220
+2023-05-18 07:09:02: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:09:22: *******Train Epoch 5: averaged Loss : 19.600446
+2023-05-18 07:09:22: *******Val Epoch 5: averaged Loss : 16.793391
+2023-05-18 07:09:43: *******Train Epoch 6: averaged Loss : 18.853582
+2023-05-18 07:09:43: *******Val Epoch 6: averaged Loss : 15.903145
+2023-05-18 07:09:43: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:10:03: *******Train Epoch 7: averaged Loss : 18.376960
+2023-05-18 07:10:04: *******Val Epoch 7: averaged Loss : 15.697793
+2023-05-18 07:10:04: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:10:24: *******Train Epoch 8: averaged Loss : 17.854900
+2023-05-18 07:10:24: *******Val Epoch 8: averaged Loss : 15.701164
+2023-05-18 07:10:44: *******Train Epoch 9: averaged Loss : 17.268158
+2023-05-18 07:10:45: *******Val Epoch 9: averaged Loss : 16.104485
+2023-05-18 07:11:05: *******Train Epoch 10: averaged Loss : 16.734223
+2023-05-18 07:11:06: *******Val Epoch 10: averaged Loss : 14.751788
+2023-05-18 07:11:06: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:11:26: *******Train Epoch 11: averaged Loss : 16.640035
+2023-05-18 07:11:26: *******Val Epoch 11: averaged Loss : 14.707110
+2023-05-18 07:11:26: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:11:47: *******Train Epoch 12: averaged Loss : 16.333842
+2023-05-18 07:11:47: *******Val Epoch 12: averaged Loss : 14.253321
+2023-05-18 07:11:47: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:12:07: *******Train Epoch 13: averaged Loss : 15.869468
+2023-05-18 07:12:08: *******Val Epoch 13: averaged Loss : 14.473640
+2023-05-18 07:12:28: *******Train Epoch 14: averaged Loss : 15.617986
+2023-05-18 07:12:29: *******Val Epoch 14: averaged Loss : 14.069908
+2023-05-18 07:12:29: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:12:49: *******Train Epoch 15: averaged Loss : 15.563440
+2023-05-18 07:12:49: *******Val Epoch 15: averaged Loss : 14.460176
+2023-05-18 07:13:10: *******Train Epoch 16: averaged Loss : 15.479217
+2023-05-18 07:13:10: *******Val Epoch 16: averaged Loss : 14.314763
+2023-05-18 07:13:30: *******Train Epoch 17: averaged Loss : 15.186797
+2023-05-18 07:13:31: *******Val Epoch 17: averaged Loss : 13.657921
+2023-05-18 07:13:31: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:13:51: *******Train Epoch 18: averaged Loss : 15.054151
+2023-05-18 07:13:51: *******Val Epoch 18: averaged Loss : 13.827309
+2023-05-18 07:14:11: *******Train Epoch 19: averaged Loss : 14.859447
+2023-05-18 07:14:12: *******Val Epoch 19: averaged Loss : 14.541806
+2023-05-18 07:14:32: *******Train Epoch 20: averaged Loss : 14.929798
+2023-05-18 07:14:32: *******Val Epoch 20: averaged Loss : 13.975361
+2023-05-18 07:14:52: *******Train Epoch 21: averaged Loss : 15.016183
+2023-05-18 07:14:53: *******Val Epoch 21: averaged Loss : 13.649283
+2023-05-18 07:14:53: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:15:13: *******Train Epoch 22: averaged Loss : 14.628134
+2023-05-18 07:15:13: *******Val Epoch 22: averaged Loss : 14.179393
+2023-05-18 07:15:33: *******Train Epoch 23: averaged Loss : 14.446425
+2023-05-18 07:15:34: *******Val Epoch 23: averaged Loss : 13.430699
+2023-05-18 07:15:34: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:15:54: *******Train Epoch 24: averaged Loss : 14.660188
+2023-05-18 07:15:54: *******Val Epoch 24: averaged Loss : 14.995602
+2023-05-18 07:16:14: *******Train Epoch 25: averaged Loss : 14.260851
+2023-05-18 07:16:15: *******Val Epoch 25: averaged Loss : 13.515329
+2023-05-18 07:16:35: *******Train Epoch 26: averaged Loss : 14.359092
+2023-05-18 07:16:35: *******Val Epoch 26: averaged Loss : 13.894372
+2023-05-18 07:16:55: *******Train Epoch 27: averaged Loss : 14.397249
+2023-05-18 07:16:55: *******Val Epoch 27: averaged Loss : 14.349056
+2023-05-18 07:17:16: *******Train Epoch 28: averaged Loss : 13.863968
+2023-05-18 07:17:16: *******Val Epoch 28: averaged Loss : 13.094010
+2023-05-18 07:17:16: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCTaxi/20230518-070741/best_model.pth
+2023-05-18 07:17:36: *******Train Epoch 29: averaged Loss : 14.080620
+2023-05-18 07:17:37: *******Val Epoch 29: averaged Loss : 13.635880
+2023-05-18 07:17:57: *******Train Epoch 30: averaged Loss : 14.015329
+2023-05-18 07:17:57: *******Val Epoch 30: averaged Loss : 14.099104
+2023-05-18 07:18:17: *******Train Epoch 31: averaged Loss : 13.842970
+2023-05-18 07:18:18: *******Val Epoch 31: averaged Loss : 13.469780
+2023-05-18 07:18:38: *******Train Epoch 32: averaged Loss : 13.667203
+2023-05-18 07:18:38: *******Val Epoch 32: averaged Loss : 13.504700
+2023-05-18 07:18:58: *******Train Epoch 33: averaged Loss : 13.781017
+2023-05-18 07:18:59: *******Val Epoch 33: averaged Loss : 13.763925
+2023-05-18 07:19:19: *******Train Epoch 34: averaged Loss : 13.740069
+2023-05-18 07:19:19: *******Val Epoch 34: averaged Loss : 13.793030
+2023-05-18 07:19:39: *******Train Epoch 35: averaged Loss : 13.735378
+2023-05-18 07:19:40: *******Val Epoch 35: averaged Loss : 13.649358
+2023-05-18 07:20:00: *******Train Epoch 36: averaged Loss : 13.313110
+2023-05-18 07:20:00: *******Val Epoch 36: averaged Loss : 13.260751
+2023-05-18 07:20:20: *******Train Epoch 37: averaged Loss : 13.394505
+2023-05-18 07:20:21: *******Val Epoch 37: averaged Loss : 13.762306
+2023-05-18 07:20:41: *******Train Epoch 38: averaged Loss : 13.255403
+2023-05-18 07:20:41: *******Val Epoch 38: averaged Loss : 13.866761
+2023-05-18 07:21:01: *******Train Epoch 39: averaged Loss : 13.303587
+2023-05-18 07:21:02: *******Val Epoch 39: averaged Loss : 13.258831
+2023-05-18 07:21:22: *******Train Epoch 40: averaged Loss : 13.167722
+2023-05-18 07:21:22: *******Val Epoch 40: averaged Loss : 13.310871
+2023-05-18 07:21:42: *******Train Epoch 41: averaged Loss : 13.256234
+2023-05-18 07:21:43: *******Val Epoch 41: averaged Loss : 13.621428
+2023-05-18 07:22:03: *******Train Epoch 42: averaged Loss : 13.107663
+2023-05-18 07:22:03: *******Val Epoch 42: averaged Loss : 13.167705
+2023-05-18 07:22:23: *******Train Epoch 43: averaged Loss : 13.158983
+2023-05-18 07:22:23: *******Val Epoch 43: averaged Loss : 13.602695
+2023-05-18 07:22:23: Validation performance didn't improve for 15 epochs. Training stops.
+2023-05-18 07:22:23: == Training finished.
+Total training time: 14.71 min	best loss: 13.0940	best epoch: 28	
+2023-05-18 07:22:23: == Test results.
+2023-05-18 07:22:24: INFLOW, MAE: 12.74, MAPE: 17.5168%
+2023-05-18 07:22:24: OUTFLOW, MAE: 10.64, MAPE: 19.7747%
