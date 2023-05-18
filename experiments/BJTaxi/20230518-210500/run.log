@@ -1,0 +1,4 @@
+2023-05-18 21:05:00: Experiment log path in: /home/stud62/ST-SSL/experiments/BJTaxi/20230518-210500
+2023-05-18 21:05:00: Experiment configs are: Namespace(seed=0, device='cuda', mode='test', best_path='/home/stud62/ST-SSL/experiments/BJTaxi/20230518-055106/best_model.pth', debug=False, data_dir='data', dataset='BJTaxi', input_length=35, batch_size=20, test_batch_size=20, graph_file='data/BJTaxi/adj_mx.npz', d_input=1, d_output=2, d_model=64, dropout=0.1, percent=0.1, shm_temp=0.5, nmb_prototype=50, yita=0.5, epochs=40, lr_init=0.0005, early_stop=True, early_stop_patience=15, grad_norm=True, max_grad_norm=5, use_dwa=True, temp=2, num_nodes=1024, log_dir='/home/stud62/ST-SSL/experiments/BJTaxi/20230518-210500')
+2023-05-18 21:05:14: INFLOW, MAE: 11.30, MAPE: 15.0966%
+2023-05-18 21:05:14: OUTFLOW, MAE: 11.39, MAPE: 15.1996%

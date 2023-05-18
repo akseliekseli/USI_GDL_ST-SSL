@@ -1,0 +1,8 @@
+2023-05-18 19:42:53: Experiment log path in: /home/stud62/ST-SSL/experiments/NYCBike1/20230518-194253
+2023-05-18 19:42:53: Experiment configs are: Namespace(seed=20, device='cuda', mode='train', best_path='None', debug=False, data_dir='data', dataset='NYCBike1', input_length=19, batch_size=32, test_batch_size=32, graph_file='data/NYCBike1/adj_mx.npz', d_input=2, d_output=2, d_model=64, dropout=0.2, percent=0.1, shm_temp=0.5, nmb_prototype=6, yita=0.6, epochs=100, lr_init=0.001, early_stop=True, early_stop_patience=15, grad_norm=True, max_grad_norm=5, use_dwa=True, temp=4, num_nodes=128, log_dir='/home/stud62/ST-SSL/experiments/NYCBike1/20230518-194253')
+2023-05-18 19:43:17: *******Train Epoch 1: averaged Loss : 12.507023
+2023-05-18 19:43:18: *******Val Epoch 1: averaged Loss : 9.800441
+2023-05-18 19:43:18: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCBike1/20230518-194253/best_model.pth
+2023-05-18 19:43:41: *******Train Epoch 2: averaged Loss : 9.700487
+2023-05-18 19:43:41: *******Val Epoch 2: averaged Loss : 8.783510
+2023-05-18 19:43:41: **************Current best model saved to /home/stud62/ST-SSL/experiments/NYCBike1/20230518-194253/best_model.pth

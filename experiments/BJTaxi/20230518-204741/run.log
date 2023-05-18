@@ -1,0 +1,41 @@
+2023-05-18 20:47:41: Experiment log path in: /home/stud62/ST-SSL/experiments/BJTaxi/20230518-204741
+2023-05-18 20:47:41: Experiment configs are: Namespace(seed=0, device='cpu', mode='train', best_path='None', debug=False, data_dir='data', dataset='BJTaxi', input_length=35, batch_size=20, test_batch_size=20, graph_file='data/BJTaxi/adj_mx.npz', d_input=1, d_output=2, d_model=64, dropout=0.1, percent=0.1, shm_temp=0.5, nmb_prototype=50, yita=0.5, epochs=40, lr_init=0.0005, early_stop=True, early_stop_patience=15, grad_norm=True, max_grad_norm=5, use_dwa=True, temp=2, num_nodes=1024, log_dir='/home/stud62/ST-SSL/experiments/BJTaxi/20230518-204741')
+2023-05-18 20:47:41: Traceback (most recent call last):
+  File "/home/stud62/ST-SSL/main.py", line 59, in model_supervisor
+    results = trainer.train() # best_eval_loss, best_epoch
+              ^^^^^^^^^^^^^^^
+  File "/home/stud62/ST-SSL/model/trainer.py", line 109, in train
+    train_epoch_loss, loss_t = self.train_epoch(epoch, loss_weights)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/ST-SSL/model/trainer.py", line 57, in train_epoch
+    repr1, repr2 = self.model(data, self.graph) # nvc
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/ST-SSL/model/models.py", line 32, in forward
+    repr1 = self.encoder(view1, graph) # view1: n,l,v,c; graph: v,v
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/ST-SSL/model/layers.py", line 209, in forward
+    x = self.tconv11(x)    # nclv
+        ^^^^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/ST-SSL/model/layers.py", line 302, in forward
+    x_conv = self.conv(x)
+             ^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stud62/.conda/envs/stssl/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.FloatTensor) should be the same
+
