@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#SBATCH -J stssl
+#SBATCH --ntasks=1
+#SBATCH --partition=gpu
+#SBATCH --time=03:00:00
+#SBATCH --mem=12020
+#SBATCH --gres=gpu:1
+
+module load gcc/10.1.0
+module load cudatoolkit/11.1
+nvcc --version
+nvidia-smi
+module load anaconda3/2019.10-gcc-10.1.0-s5gxujg
+
+conda info --envs
+
+source activate stssl
+
+echo "Job start at $(date)"
+
+srun python main.py --config_filename=configs/BJTaxi.yaml
+
+echo "Job ended at $(date)"
+
+
+
