@@ -9,6 +9,13 @@ torch==1.10.1 <br>
 
 # How to run the code
 
+The code can be ran in a computational cluster by:
+1. clone the repository to the cluster
+2. Load anaconda module (module load <anaconda-module-name>
+3. create a conda environment named stssl and install torch, pyyaml, numpy, pandas
+4. activate the environment
+5. submit a job with slurm with command sbatch slurm_files/run_bike1.slrm 
+
 
 # Citation
 @inproceedings{ji2023spatio, <br>
